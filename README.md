@@ -66,17 +66,8 @@ Google's `uule` parameter geo-targets search results. It is constructed by:
 ### Backend (FastAPI)
 
 ```bash
-# 1. Navigate to the backend directory
-cd rank-checker/backend
-
-# 2. Create and activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-
-# 3. Install dependencies
 pip install -r requirements.txt
-
-# 4. Start the development server
+playwright install chromium
 uvicorn main:app --reload --port 8000
 ```
 
