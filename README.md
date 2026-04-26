@@ -1,4 +1,4 @@
-# 🔍 SERP Lens — Localized Keyword Rank Checker
+#  SERP Lens — Localized Keyword Rank Checker
 
 > Find where your domain ranks on Google — as seen from any city in the world.
 
@@ -6,7 +6,7 @@ An open-source tool that queries Google as if the user is standing at a specific
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rank-checker/
@@ -33,7 +33,7 @@ rank-checker/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### 1. UULE Generation (`utils.py`)
 Google's `uule` parameter geo-targets search results. It is constructed by:
@@ -55,7 +55,7 @@ Google's `uule` parameter geo-targets search results. It is constructed by:
 
 ---
 
-## 🚀 Running Locally
+##  Running Locally
 
 ### Prerequisites
 - **Python 3.11+**
@@ -146,7 +146,7 @@ Check the organic rank of a domain for a keyword at a specific location.
 
 ---
 
-## 🌍 Adding Custom Locations
+##  Adding Custom Locations
 
 Edit `frontend/src/locations.js` to add any location using Google's canonical format:
 
@@ -167,7 +167,8 @@ This tool is intended for **SEO research, competitive analysis, and educational 
 - If you need high-volume rank checking, consider using the [Google Search Console API](https://developers.google.com/webmaster-tools) or a paid SERP API provider.
 
 ---
+<img width="1130" height="794" alt="image" src="https://github.com/user-attachments/assets/ee6aefec-631e-4611-8de6-a49d371066d7" />
 
-## 📄 License
+##  License
 
 MIT © 2024 — free to use, modify, and distribute.
